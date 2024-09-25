@@ -1,0 +1,90 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #a28181;
+  }
+  
+  .container {
+    width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(53, 17, 17, 0.699);
+    overflow: hidden; /* Para a borda arredondada funcionar */
+  }
+  
+  /* Estilos do cabeçalho */
+  .cabecalho {
+    background: linear-gradient(to right, #6933ff, #6d89c6, #3357FF);
+
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .nome {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos da foto */
+  .foto {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 20px auto;
+  }
+  
+  .foto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* Estilos do conteúdo */
+  .conteudo {
+    padding: 20px;
+  }
+  
+  .objetivo, .habilidades, .experiencia, .contato, .formacao {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  li img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  li p {
+    display: inline-block;
+  }
+  
+  .escola, .curso {
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
